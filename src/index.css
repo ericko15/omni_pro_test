@@ -3,12 +3,13 @@
   --gray-color: #F5F5F5;
   --placeholder-color: rgba(255,255,255, .5);
   --white-color: #FFFFFF;
+  --gradient-button: linear-gradient(90deg, #8DE7ED 2.31%, #2FCEC5 100%);
 }
 
-body {
+body, * {
   background: #3A3061;
   margin: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
