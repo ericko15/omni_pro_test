@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #2FCCC3;
+  --gray-color: #F5F5F5;
+  --placeholder-color: rgba(255,255,255, .5);
+  --white-color: #FFFFFF;
+}
+
+body {
+  background: #3A3061;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
