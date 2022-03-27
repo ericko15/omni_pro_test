@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import {useState} from 'react'
 
 const Menu = ({menu, active}) => {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   const handleToggleOpen = () => {
     setOpen(v => !v)

@@ -32,10 +32,12 @@ const menu = [
 ]
 
 const AuthLayout = ({children}) => (
-  <div className={classes.container}>
-    <LogoImage/>
-    <Menu menu={menu} active="services"/>
-    {children}
+  <div className={classes.body}>
+    <div className={classes.container}>
+      <LogoImage/>
+      <Menu menu={menu} active="services"/>
+      {children}
+    </div>
   </div>
 )
 

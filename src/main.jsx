@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import Router from './router'
 
+const App = () => (
+  <>
+    <Router/>
+  </>
+)
+
 ReactDOM.render(
-  <Router />,
+  <App/>,
   document.getElementById('root')
 )

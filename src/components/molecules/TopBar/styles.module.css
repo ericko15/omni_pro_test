@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.2);
+}
+
+.container img {
+  width: 80px;
+  height: auto;
+}
+
+.container .icons {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container .icons i:not(:last-child) {
+  margin-right: 15px;
+}
