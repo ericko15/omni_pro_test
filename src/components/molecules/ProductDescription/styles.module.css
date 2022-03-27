@@ -1,0 +1,34 @@
+.container .description {
+  margin-top: 40px;
+  padding-top: 10px;
+  box-shadow: 0 -2px 0 #F9F8F6;
+}
+
+.container .description h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container .description span {
+  font-size: 16px;
+}
+
+.container .description .readMore {
+  margin-top: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container .suggestions {
+  margin-bottom: 10px;
+}
+.container .suggestions .products {
+  margin-top: 20px;
+  overflow-x: auto;
+  display: flex;
+}
+
+.container .suggestions .products div:not(:last-child){
+  margin-right: 10px;
+}
