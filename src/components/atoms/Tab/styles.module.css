@@ -1,0 +1,7 @@
+.container .content {
+  padding: 24px;
+  top: 5px;
+  background-color: var(--tab-active-color);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}

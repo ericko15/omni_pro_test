@@ -1,6 +1,9 @@
+import Auth from '../pages/Auth'
+
 const App = () => {
-  return (
-    <div>
+  return ( 
+    <div style={{ padding: 10 }}>
+      <Auth />
     </div>
   )
 }

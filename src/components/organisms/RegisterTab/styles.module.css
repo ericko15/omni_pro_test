@@ -1,0 +1,7 @@
+.container form > div:not(:first-child){
+  margin-bottom: 25px;
+}
+
+.container form button{
+  margin-top: 5px;
+}

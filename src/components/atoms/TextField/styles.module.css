@@ -36,6 +36,7 @@
 }
 
 .container label {
+  text-transform: uppercase;
   font-weight: 400;
   color: var(--gray-color);
 }

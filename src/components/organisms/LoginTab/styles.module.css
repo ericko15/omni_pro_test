@@ -1,0 +1,33 @@
+.form input{
+  margin-bottom: 24px;
+}
+
+.form .subscribe {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--white-color);
+  justify-content: center;
+}
+
+.form .subscribe label {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.form .buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.form .buttonContainer .button {
+  max-width: 300px;
+}
+
+.form .forgotPassword {
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: var(--white-color);
+}
