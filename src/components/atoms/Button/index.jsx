@@ -3,8 +3,8 @@ import classNames from 'classnames'
 
 import classes from './styles.module.css'
 
-const Button = ({children, className, fullWidth}) => (
-  <button type="button" className={classNames(classes.button, className, {[classes.fullWidth]: fullWidth})}>
+const Button = ({children, className, fullWidth, type}) => (
+  <button type={type} className={classNames(classes.button, className, {[classes.fullWidth]: fullWidth})}>
     {children}
   </button>
 )
@@ -12,7 +12,8 @@ const Button = ({children, className, fullWidth}) => (
 Button.propTypes = {
   children: PropTypes.node.isRequired,
   fullWidth: PropTypes.bool,
-  className: PropTypes.string
+  className: PropTypes.string,
+  type: PropTypes.string
 }
 
 export default Button

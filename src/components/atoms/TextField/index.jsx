@@ -7,7 +7,7 @@ const TextField = ({id, label, isRequired, placeholder, type}) => {
   return (
     <div className={classes.container}>
       {label && <label htmlFor={id}>{label}</label>}
-      <input id={id} type={type} placeholder={placeholder}/>
+      <input id={id} type={type} placeholder={placeholder} required={isRequired}/>
       {
         isRequired && (
           <div className={classes.isRequired}>

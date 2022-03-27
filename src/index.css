@@ -1,5 +1,6 @@
 :root {
   --primary-color: #2FCCC3;
+  --secondary-color: #392F63;
   --gray-color: #F5F5F5;
   --placeholder-color: rgba(255,255,255, .5);
   --white-color: #FFFFFF;
@@ -8,8 +9,13 @@
   --tab-color: rgba(58, 48, 97, 0.35);
 }
 
+body {
+  background-color: #393FD0;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
 body, * {
-  margin: 0;
   font-family: Dosis, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
