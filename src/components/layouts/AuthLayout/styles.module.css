@@ -1,0 +1,6 @@
+.container {
+  position: relative;
+  max-width: 380px;
+  margin: 0 auto;
+  overflow: hidden;
+}

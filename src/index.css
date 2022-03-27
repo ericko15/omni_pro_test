@@ -7,15 +7,16 @@
   --gradient-button: linear-gradient(90deg, #8DE7ED 2.31%, #2FCEC5 100%);
   --tab-active-color: #3A3061;
   --tab-color: rgba(58, 48, 97, 0.35);
+  --background-color: #393FD0;
 }
 
 body {
-  background-color: #393FD0;
-  max-width: 380px;
-  margin: 0 auto;
+
+  background-color: var(--background-color);
 }
 
 body, * {
+  margin: 0;
   font-family: Dosis, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
